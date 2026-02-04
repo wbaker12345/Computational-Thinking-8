@@ -1,6 +1,6 @@
 import turtle, time, random
 from utils import *
-
+#every time tou click the space key you gain 1 fain and want you get enough fans you can buy a new album. Play to see how many albums you can buy
 # Section 1 - setup
 # TODO - set a background using 
 set_background("drakeback")
