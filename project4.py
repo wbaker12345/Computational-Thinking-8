@@ -41,20 +41,6 @@ window.onkeypress(make_album, "c")
 
 
 
-def make_song() :
-    global make_song, fans, cost
-    if fans >= cost:
-        fans = fans - cost
-        cost = cost +5
-        make_song +=1
-        x = -200 + 15 *fans
-        y = -150
-        create_sprite("song", x, y)
-# TODO - choose a key to do the action. ex: window.onkeypress(my_control, "space")
-window.onkeypress(make_song, "h")
-
-
-
 
 # Section 3 - game loop
 window.listen()
